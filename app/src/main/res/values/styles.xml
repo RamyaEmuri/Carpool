@@ -1,0 +1,202 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#345499</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+        <style name="AppNoActionBarTheme"
+            parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/grey</item>
+            <item name="colorAccent">@color/colorPrimary</item>
+        </style>
+
+        <style name="ImageView">
+            <item name="android:src">@drawable/ic_add_img</item>
+            <item name="android:layout_alignParentBottom">true</item>
+            <item name="android:layout_alignParentRight">true</item>
+            <item name="android:layout_alignParentEnd">true</item>
+        </style>
+        <style name="ImageView2">
+            <item name="android:src">@drawable/ic_register_hero</item>
+            <item name="android:layout_marginTop">25dp</item>
+
+        </style>
+        <style name="TextView">
+            <item name="android:text">Already Have an Account?</item>
+            <item name="android:textColor">#000000</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">@dimen/headertextsize1</item>
+            <item name="android:layout_marginTop">@dimen/textview_margin_top</item>
+            <item name="android:layout_marginLeft">@dimen/relative_layout_left_right</item>
+            <item name="android:layout_marginStart">@dimen/relative_layout_left_right</item>
+        </style>
+        <style name="EditText">
+            <item name="android:ems">10</item>
+            <item name="android:hint">Email</item>
+            <item name="android:textSize">@dimen/emailsubtext</item>
+        </style>
+        <style name="EditText2">
+            <item name="android:ems">10</item>
+            <item name="android:hint">Password</item>
+            <item name="android:textSize">@dimen/emailsubtext</item>
+        </style>
+        <style name="TextView2">
+            <item name="android:text">Forgot Password?</item>
+            <item name="android:textColor">@color/lightgreen</item>
+            <item name="android:textSize">@dimen/forgetregistertext</item>
+        </style>
+
+
+        <style name="TextView3">
+            <item name="android:textColor">@color/lightgreen</item>
+        </style>
+        <style name="TextView4">
+            <item name="android:layout_centerHorizontal">true</item>
+            <item name="android:text">Use other Methods</item>
+            <item name="android:textColor">#000000</item>
+            <item name="android:textSize">@dimen/othermethodtext</item>
+        </style>
+        <style name="ImageView3">
+            <item name="android:src">@drawable/ic_facebook</item>
+
+        </style>
+        <style name="ImageView4">
+            <item name="android:src">@drawable/ic_google_plus</item>
+
+        </style>
+        <style name="ImageView5">
+            <item name="android:src">@drawable/button_background_blue</item>
+        </style>
+        <style name="TextView5">
+            <item name="android:text">LOGIN</item>
+            <item name="android:textColor">#ffff</item>
+        </style>
+        <style name="ImageView6">
+            <item name="android:src">@drawable/ic_side_bg</item>
+            <item name="android:layout_alignParentRight">true</item>
+        </style>
+
+
+
+
+
+        <style name="ImageView7">
+            <item name="android:src">@drawable/ic_login_hero</item>
+            <item name="android:layout_alignParentRight">true</item>
+            <item name="android:layout_marginRight">@dimen/relative_layout_left_right</item>
+            <item name="android:layout_marginTop">@dimen/size_40</item>
+        </style>
+        <style name="TextView6">
+            <item name="android:text">"Here's \nyour first \nstep with\n us!"</item>
+            <item name="android:textColor">#ffffff</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">@dimen/headertextsize2</item>
+            <item name="android:layout_marginTop">@dimen/size_30</item>
+            <item name="android:layout_marginLeft">@dimen/relative_layout_left_right</item>
+
+        </style>
+        <style name="EditText3">
+            <item name="android:ems">10</item>
+            <item name="android:hint">Name</item>
+            <item name="android:layout_marginTop">@dimen/imageview_margin_top</item>
+            <item name="android:layout_marginLeft">@dimen/margin_right</item>
+            <item name="android:layout_marginStart">@dimen/margin_right</item>
+            <item name="android:textSize">@dimen/emailsubtext</item>
+        </style>
+        <style name="EditText4">
+            <item name="android:ems">10</item>
+            <item name="android:hint">Email</item>
+            <item name="android:layout_alignTop">@id/editText3</item>
+            <item name="android:layout_marginTop">@dimen/edittexts_margin_top</item>
+            <item name="android:layout_marginLeft">@dimen/margin_right</item>
+            <item name="android:layout_marginStart">@dimen/margin_right</item>
+            <item name="android:textSize">@dimen/emailsubtext</item>
+        </style>
+        <style name="EditText5">
+            <item name="android:ems">10</item>
+            <item name="android:hint">Mobile Number</item>
+            <item name="android:layout_alignTop">@id/editText4</item>
+            <item name="android:layout_marginTop">@dimen/edittexts_margin_top</item>
+            <item name="android:layout_marginLeft">@dimen/margin_right</item>
+            <item name="android:layout_marginStart">@dimen/margin_right</item>
+            <item name="android:textSize">@dimen/emailsubtext</item>
+        </style>
+        <style name="EditText6">
+            <item name="android:ems">10</item>
+            <item name="android:hint">Password</item>
+            <item name="android:layout_alignTop">@id/editText5</item>
+            <item name="android:layout_marginTop">@dimen/edittexts_margin_top</item>
+            <item name="android:layout_marginLeft">@dimen/margin_right</item>
+            <item name="android:layout_marginStart">@dimen/margin_right</item>
+            <item name="android:textSize">@dimen/emailsubtext</item>
+        </style>
+        <style name="ImageView8">
+            <item name="android:src">@drawable/button_background_blue</item>
+            <item name="android:layout_alignTop">@id/editText6</item>
+            <item name="android:layout_marginTop">@dimen/textview_2_margin_top</item>
+            <item name="android:layout_centerHorizontal">true</item>
+        </style>
+        <style name="TextView7">
+            <item name="android:text">REGISTER</item>
+            <item name="android:layout_alignTop">@id/imageView8</item>
+            <item name="android:layout_centerHorizontal">true</item>
+            <item name="android:layout_marginTop">13dp</item>
+            <item name="android:textSize">@dimen/forgetregistertext</item>
+            <item name="android:textColor">#ffff</item>
+
+        </style>
+        <style name="TextView8">
+            <item name="android:text">Already have an Account?</item>
+            <item name="android:layout_alignTop">@id/textView7</item>
+            <item name="android:layout_marginTop">@dimen/imageview_10_11_height_width</item>
+            <item name="android:layout_centerHorizontal">true</item>
+            <item name="android:textColor">#FF11CFC5</item>
+        </style>
+        <style name="ImageView9">
+            <item name="android:src">@drawable/ic_back_img</item>
+            <item name="android:layout_alignParentBottom">true</item>
+            <item name="android:layout_marginBottom">30dp</item>
+        </style>
+        <style name="TextView9">
+            <item name="android:text">Use other Methods</item>
+            <item name="android:layout_alignBottom">@id/imageView10</item>
+            <item name="android:layout_marginBottom">40dp</item>
+            <item name="android:textColor">#ffff</item>
+            <item name="android:textSize">@dimen/othermethodtext</item>
+        </style>
+        <style name="ImageView10">
+            <item name="android:src">@drawable/ic_facebook</item>
+            <item name="android:layout_marginTop">@dimen/imageview_10_11_height_width</item>
+        </style>
+        <style name="ImageView11">
+            <item name="android:src">@drawable/ic_google_plus</item>
+            <item name="android:layout_marginLeft">@dimen/imageview_11_margin_left</item>
+            <item name="android:layout_marginTop">@dimen/imageview_10_11_height_width</item>
+        </style>
+        <style name="TextView10">
+            <item name="android:text">_______________</item>
+
+        </style>
+        <style name="TextView11">
+            <item name="android:text">_____________</item>
+
+        </style>
+
+
+
+</resources>

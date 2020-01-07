@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+
+    >
+
+    <ImageView
+        android:id="@+id/backView"
+        android:layout_width="@dimen/size_200"
+        android:layout_height="@dimen/size_200"
+        android:layout_marginTop="@dimen/size_80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:piv_animationType="none"
+        app:piv_radius="@dimen/size_3"
+        app:piv_dynamicCount="true"
+        app:piv_interactiveAnimation="true"
+        app:piv_selectedColor="@color/blue"
+        app:piv_unselectedColor="@color/grey"
+        app:piv_viewPager="@id/viewPager1"
+
+        />
+
+    <!--    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator-->
+<!--        android:id="@+id/dots_indicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="@dimen/size_25"-->
+<!--        app:dotsColor="@color/blue"-->
+<!--        app:dotsStrokeColor="@color/grey"-->
+<!--        app:dotsCornerRadius="@dimen/size_8"-->
+<!--        app:dotsSize="@dimen/size_5"-->
+<!--        app:dotsSpacing="@dimen/size_4"-->
+<!--        app:dotsStrokeWidth="@dimen/size_3"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/backView"/>-->
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_470"
+        android:layout_marginTop="@dimen/size_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_25"
+        android:text="GET STARTED"
+        android:textColor="#5c8aea"
+        android:textSize="@dimen/size_25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

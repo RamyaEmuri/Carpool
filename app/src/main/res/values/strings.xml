@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Carpool</string>
+    <string name="About_info">Myself Jared Leto. I love to travell more places without any conditions.
+       Mostly I like to travel to the adventure place most. Then only I will come to know hoe strong
+        I was.I taught myself how to use Photoshop to improve the quality of our photos and graphics.
+        I soon became the go-to person for any design needs.</string>
+
+    <string name="Trip_info">I visited a place called Los Angeles- Alabama. It was a wonderful place
+        which i have never visited before. Los Angeles is a sprawling Southern California city and
+        the center of the nation’s film and television industry. Near its iconic Hollywood sign,
+        studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes
+        tours. On Hollywood Boulevard, TCL Chinese Theatre displays celebrities’ hand- and footprints,
+        the Walk of Fame honors thousands of luminaries and vendors sell maps to stars’ homes.</string>
+
+
+
+
+        <string name="dialog_message">Welcome to Alert Dialog</string>
+        <string name="dialog_title">Javatpoint Alert Dialog</string>
+
+
+
+</resources>
